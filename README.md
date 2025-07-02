@@ -1,5 +1,24 @@
 # FFmpegKit for React Native
 
+Modified version working with Expo.
+
+```json
+{
+  "plugins": [
+    [
+      // Based on withFfmpegKit.example.js
+      "./expo-plugins/withFfmpegKit",
+      {
+        "iosUrl": "https://github.com/celeryhq/ffmpeg-kit-ios-full-gpl/archive/refs/heads/main.zip",
+        "androidUrl": "https://github.com/celeryhq/ffmpeg-kit-full-gpl/raw/refs/heads/main/ffmpeg-kit-full-gpl.aar",
+      },
+    ],
+  ]
+}
+```
+
+---
+
 ### 1. Features
 - Includes both `FFmpeg` and `FFprobe`
 - Supports
